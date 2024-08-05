@@ -6,7 +6,7 @@
 /*   By: mel-bouh <mel-bouh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/28 03:50:52 by mel-bouh          #+#    #+#             */
-/*   Updated: 2024/07/31 11:04:45 by mel-bouh         ###   ########.fr       */
+/*   Updated: 2024/08/05 10:07:37 by mel-bouh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,14 +68,11 @@ void	*monitoring(void *arg)
 	t_inst	*in;
 
 	p = (t_philo *)arg;
-	in = p[0].in;
+	in = p->in;
 	while (alive(p->in))
 	{
-		if (check_full(p, in))
-		{
-			write_full(p->in);
-			break ;
-		}
+		// if (check_full(p, in))
+		// 	break ;
 		if (end_death(p, in))
 		{
 			write_starved(p->in, p->id);

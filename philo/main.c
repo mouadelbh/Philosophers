@@ -6,7 +6,7 @@
 /*   By: mel-bouh <mel-bouh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/25 16:26:07 by mel-bouh          #+#    #+#             */
-/*   Updated: 2024/07/29 01:15:26 by mel-bouh         ###   ########.fr       */
+/*   Updated: 2024/08/03 11:49:31 by mel-bouh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,9 @@ int	destroy_mutex(t_inst *in, t_fork *m, t_fork *f)
 
 int	main(int ac, char **av)
 {
-	t_fork	f[200];
+	t_fork	f[250];
 	t_fork	m[200];
-	t_philo	p[200];
+	t_philo	p[250];
 	t_inst	inst;
 
 	if (!check_argument(ac, av))

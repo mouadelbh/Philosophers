@@ -6,7 +6,7 @@
 /*   By: mel-bouh <mel-bouh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 17:45:47 by mel-bouh          #+#    #+#             */
-/*   Updated: 2024/07/29 01:41:59 by mel-bouh         ###   ########.fr       */
+/*   Updated: 2024/08/05 10:05:46 by mel-bouh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ typedef struct s_philo
 	int				id;
 	int				eating;
 	int				full;
+	int				turn;
 	size_t			lastmeal;
 	t_inst			*in;
 	pthread_mutex_t	*meal_lock;

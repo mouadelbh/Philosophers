@@ -6,7 +6,7 @@
 /*   By: mel-bouh <mel-bouh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/27 02:58:55 by mel-bouh          #+#    #+#             */
-/*   Updated: 2024/07/31 14:56:00 by mel-bouh         ###   ########.fr       */
+/*   Updated: 2024/07/31 14:59:28 by mel-bouh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,19 +20,11 @@ void	printtime(t_inst in)
 	printf("%s%lu⏰ %s", CYAN, time_ms, RESET);
 }
 
-void	write_full(t_inst *in)
-{
-	pthread_mutex_lock(&in->print);
-	printtime(*in);
-	printf("%s%sAll Philosophers are satisfied %s👌\n", GREEN, BOLD, RESET);
-	pthread_mutex_unlock(&in->print);
-}
-
 void	write_starved(t_inst *in, int i)
 {
 	pthread_mutex_lock(&in->print);
 	printtime(*in);
-	printf("%s%sPhilo %i has died 💀%s\n", RED, BOLD, i, RESET);
+	printf("%s%sPhilo %i died%s\n", RED, BOLD, i, RESET);
 	pthread_mutex_unlock(&in->print);
 }
 

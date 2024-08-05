@@ -1,0 +1,156 @@
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m1⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m1⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m1⏰ [0m[93m[1mPhilo 1[0m started eating
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m61⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m61⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m61⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m61⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m61⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m122⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m122⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m122⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m122⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m182⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m182⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m182⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m182⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m182⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m242⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m242⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m242⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m242⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m242⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m242⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m302⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m302⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m302⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m302⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m362⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m363⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m363⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m363⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m363⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m423⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m423⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m423⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m423⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m423⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m423⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m483⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m483⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m483⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m483⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m543⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m543⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m543⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m543⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m543⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m603⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m603⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m603⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m603⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m603⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m603⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m664⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m664⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m664⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m664⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m724⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m724⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m724⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m724⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m724⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m784⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m784⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m784⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m784⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m784⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m784⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m844⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m844⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m844⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m844⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m904⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m905⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m905⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m905⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m905⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m965⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m965⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m965⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m965⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m965⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m965⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m1025⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m1025⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m1025⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m1025⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m1085⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m1085⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m1085⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m1085⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m1085⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m1145⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m1145⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m1145⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m1145⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m1145⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m1145⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m1206⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m1206⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m1206⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m1206⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m1266⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m1266⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m1266⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m1266⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m1266⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m1326⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m1326⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m1326⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m1326⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m1326⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m1326⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m1386⏰ [0m[93m[1mPhilo 1[0m is thinking
+p 1 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d948
+[36m1386⏰ [0m[93m[1mPhilo 2[0m is sleeping
+[36m1386⏰ [0m[93m[1mPhilo 3[0m has taken his right fork
+[36m1386⏰ [0m[93m[1mPhilo 3[0m started eating
+[36m1446⏰ [0m[93m[1mPhilo 2[0m is thinking
+p 2 lf = 0x7ffec5f9d948 rf 0x7ffec5f9d970
+[36m1447⏰ [0m[93m[1mPhilo 3[0m is sleeping
+[36m1447⏰ [0m[93m[1mPhilo 1[0m has taken his left fork
+[36m1447⏰ [0m[93m[1mPhilo 1[0m has taken his right fork
+[36m1447⏰ [0m[93m[1mPhilo 1[0m started eating
+[36m1507⏰ [0m[93m[1mPhilo 3[0m is thinking
+p 3 lf = 0x7ffec5f9d920 rf 0x7ffec5f9d970
+[36m1507⏰ [0m[93m[1mPhilo 1[0m is sleeping
+[36m1507⏰ [0m[93m[1mPhilo 2[0m has taken his left fork
+[36m1507⏰ [0m[93m[1mPhilo 2[0m has taken his right fork
+[36m1507⏰ [0m[93m[1mPhilo 2[0m started eating
+[36m1507⏰ [0m[93m[1mPhilo 3[0m has taken his left fork
+[36m1567⏰

@@ -6,7 +6,7 @@
 /*   By: mel-bouh <mel-bouh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/25 17:32:41 by mel-bouh          #+#    #+#             */
-/*   Updated: 2024/07/31 11:27:43 by mel-bouh         ###   ########.fr       */
+/*   Updated: 2024/08/05 10:14:16 by mel-bouh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,9 +85,18 @@ void	fill_philos(t_philo *p, t_fork *m, t_inst *in, t_fork *f)
 		p[i].lastmeal = get_current_time();
 		p[i].eating = 0;
 		p[i].full = 0;
+		p[i].turn = 0;
 		p[i].meal_lock = &m[i];
-		p[i].lfork = &f[i];
-		p[i].rfork = &f[(i + 1) % in->nphilo];
+		if (i == in->nphilo - 1)
+		{
+			p[i].rfork = &f[0];
+			p[i].lfork = &f[i];
+		}
+		else
+		{
+			p[i].rfork = &f[i];
+			p[i].lfork = &f[(i + 1) % in->nphilo];
+		}
 		p[i].in = in;
 		i++;
 	}
